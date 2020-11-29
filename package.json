@@ -1,6 +1,6 @@
 {
   "name": "frozentasks",
-  "displayName": "FrozenTasks",
+  "displayName": "Frozen Tasks",
   "description": "A text-based task managment extension based on Bullet Journaling and inspired by Todo+.",
   "version": "0.0.1",
   "engines": {
