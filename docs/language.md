@@ -10,7 +10,7 @@
     text_line = [ white_space ], token_string;
 
     task = [ "!" ], "*", task_text;
-    blocked = [ "!" ], "|*", assigned_text;
+    blocked = [ "!" ], "*|", assigned_text;
     question = [ "!" ], "q", task_text | assigned_text;
     event = [ "!" ], "o", event_text;
     note = [ "!" ], "-", task_text;
