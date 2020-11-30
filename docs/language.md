@@ -11,7 +11,7 @@
 
     task = [ "!" ], "*", task_text;
     blocked = [ "!" ], "*|", assigned_text;
-    question = [ "!" ], "q", task_text | assigned_text;
+    question = [ "!" ], "?", task_text | assigned_text;
     event = [ "!" ], "o", event_text;
     note = [ "!" ], "-", task_text;
     completed = [ "!" ], "x", task_text | event_text | assigned_text;

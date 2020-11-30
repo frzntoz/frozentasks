@@ -25,6 +25,7 @@ Frozen Tasks files are build on the premise that they will be readable plain tex
      -  A note
     --- A cancelled task or event
     !*  An important task
+    !o  This is an import event
      ?  A question task
      *| A blocked task (@person)
      => Task handed off to another @person
