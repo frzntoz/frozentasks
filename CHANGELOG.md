@@ -20,5 +20,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Inital pass at adding content to README.md
 - Updated .vscodeignore
+- node packages
+- launch code for test suite to disable other extensions as one of them is out of date
+  and causing depreciated node warnings to be thrown
+
+### Removed
+
+- Cleaned out the Hello World code.
 
 ## [Unreleased]
