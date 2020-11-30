@@ -9,26 +9,26 @@ The basic premise is to provide a consistent interface for an individual to mana
 * Based upon wonderful Bullet Journaling methodology by Ryder Carroll
 * All data kept in text files
 * Uses a simple notation set (minor extension of the official bullet journaling ones)
-* Support for daily, monthly, future, and custom logs
-* Simple tagging to improve searching
-* Migration workflows to help manage tasks between the various logs
+* Support for daily, monthly, future, and custom task logs
+* Simple tagging to help with searching
+* Migration workflows to help manage tasks between log files
 
 ### Notation
 
 Frozen Tasks files are build on the premise that they will be readable plain text files. Thus, the frozentasks extension isn't required, but hopefully it helps usability. The basic notation used for frozen task files is:
 
      *  A task
-     >  A migrated task to a different log, such as month, day (where)
-     <  A migrated task to the future log (date)
+     >  A migrated task to a different log, such as month, day [where]
+     <  A migrated task to the future log (year-month)[where]
      x  A completed task
      o  An event
      -  A note
     --- A cancelled task or event
     !*  An important task
      ?  A question task
-    |*  A blocked task (@person)
-     => Item asigned to another @person
-    <=  Response from another @person
+     *| A blocked task (@person)
+     => Task handed off to another @person
+    <=  Task reassigned from another @person
 
 Tasks, events, and notes can be nested to indicate their relationship.
 

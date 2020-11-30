@@ -6,6 +6,8 @@ src/**
 .yarnrc
 LICENSE.md
 PLAN.md
+sample.tasks
+language.md
 **/tsconfig.json
 **/.eslintrc.json
 **/*.map
