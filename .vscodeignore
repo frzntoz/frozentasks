@@ -5,9 +5,7 @@ src/**
 .gitignore
 .yarnrc
 LICENSE.md
-PLAN.md
-sample.tasks
-language.md
+docs/**
 **/tsconfig.json
 **/.eslintrc.json
 **/*.map
