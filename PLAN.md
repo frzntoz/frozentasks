@@ -7,6 +7,7 @@ A simple summary of the development plan
 ### Initial
 
 - Create task files
+- Define the language needed to parse a frozentasks file
 - Implement the commands to create and update tasks
 - Develop using TDD
 - Use continuous integration to automate the testing
